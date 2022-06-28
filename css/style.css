@@ -55,14 +55,28 @@ textarea {
 .header {
     height: 250px;
 }
+.header__logo {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 10px;
+}
+.header__title {
+  font-family: Indie Flower;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 55px;
+  padding-bottom: 35px;
+  color: rgba(33 150 240 / 65%)
+}
 .main-nav {
     display: flex;
     justify-content: center;
+    background-color: rgba(33 150 240 / 65%);
 }
 .menu__list {
     display: flex;
-    align-content: center;
-    align-items: center;
+    align-items: flex-end;
 }
 .menu__item {
     display: flex;
@@ -75,7 +89,7 @@ textarea {
     background: rgb(33 150 240);
     border-radius: 4px;
 }
-.menu__list :nth-child(3n+2) {
+.menu__list :last-child {
   margin-right: 0;
 }
 
@@ -119,22 +133,19 @@ textarea {
   font-weight: 700;
   width: 150px;
   height: 50px;
+  margin-top: 180px;
   background: #2196F3;
   color: #ffffff;
   font-size: 16px;
   line-height: 0.8;
   letter-spacing: 0.06em;
   border-radius: 4px;
-  margin: 0 auto;
   text-align: center;
   box-shadow: 0px 4px 4px, rgb (0 0 0 / 15%);
 }
 
 /*NEWS*/
 .section__container {
-  background: rgba(33 150 240 / 65%);
-}
-.header__container {
   background: rgba(33 150 240 / 65%);
 }
 .section__title {
