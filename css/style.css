@@ -86,7 +86,6 @@ textarea {
     margin-right: 25px;
     height: 75px;
     width: 150px;
-    background: rgb(33 150 240);
     border-radius: 4px;
 }
 .menu__list :last-child {
