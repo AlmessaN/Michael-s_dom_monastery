@@ -95,6 +95,7 @@ textarea {
 }
 .section__imposter {
     background-image: url(../images/monastery.png);
+    border-radius: 7px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
