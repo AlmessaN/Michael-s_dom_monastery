@@ -190,3 +190,55 @@ textarea {
   padding-bottom: 35px;
   color: #ffffff;
 }
+
+//*PRIMATE*//
+
+.primate__card {
+  background: rgba(33 150 240 / 65%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1230px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.primate__block {
+  display: flex;
+  justify-content: center;
+  background-image: url(../images/primate.png);
+  height: 650px;
+  width: 1230px;
+}
+.primate__title {
+  font-family: Indie Flower;
+  font-weight: 700;
+  font-size: 19px;
+  text-align: center;
+  margin-top: 530px;
+  background-color: rgba(33 150 240 / 65%);
+  color: #ffffff;
+  width: 1215px;
+}
+.title {
+  font-family: Indie Flower;
+  font-weight: 700;
+  font-size: 19px;
+  text-align: center;
+  margin-top: 30px;
+  color: #ffffff;
+}
+.primate__text {
+  font-family: Indie Flower;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 30px;
+  color: #ffffff;
+}
+.primate__about {
+  display: flex;
+  justify-content: center;
+  width: 1100px;
+}
