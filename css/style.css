@@ -91,7 +91,16 @@ textarea {
 .logo {
   width: 290px;
   height: 173px;
-
+}
+.logo__menu {
+  display: flex;
+  justify-content: center;
+}
+.logo__elipce {
+  background-color: rgb(33 150 240);
+  border-radius: 15%;
+  height: 180px;
+  width: 250px;
 }
 .section__imposter {
     background-image: url(../images/monastery.png);
@@ -123,10 +132,10 @@ textarea {
 
 /*NEWS*/
 .section__container {
-  background: rgba(33 150 240 / 25%);
+  background: rgba(33 150 240 / 65%);
 }
 .header__container {
-  background: rgba(33 150 240 / 25%);
+  background: rgba(33 150 240 / 65%);
 }
 .section__title {
   font-family: Indie Flower;
@@ -153,13 +162,13 @@ textarea {
   background: #ffffff;
 }
 .section__backgraund {
-  background-color:  rgba(33 150 240 / 25%);
+  background-color:  rgba(33 150 240 / 70%);
   margin-left: 30px;
   margin-right: 30px;
   padding-bottom: 40px;
 }
 .footer__container {
-  background: rgba(33 150 240 / 25%);
+  background: rgba(33 150 240 / 65%);
 }
 .footer__title {
   font-family: Indie Flower;
