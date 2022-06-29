@@ -204,6 +204,7 @@ textarea {
   height: 405px;
   margin-right: 25px;
   border: 2mm solid rgba(33 150 240 / 65%);
+  border-radius: 15px;
 }
 .section__backgraund {
   margin-left: 30px;
