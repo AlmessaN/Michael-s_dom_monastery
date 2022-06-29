@@ -209,15 +209,17 @@ textarea {
   display: flex;
   justify-content: center;
   background-image: url(../images/primate.png);
-  height: 650px;
-  width: 1230px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 740px;
+
 }
 .primate__title {
   font-family: Indie Flower;
   font-weight: 700;
   font-size: 19px;
   text-align: center;
-  margin-top: 530px;
+  margin-top: 630px;
   background-color: rgba(33 150 240 / 65%);
   color: #ffffff;
   width: 1215px;
