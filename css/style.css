@@ -135,7 +135,9 @@ textarea {
     padding-bottom: 20px;
 }
 .section__btn {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: 'Lora', sans-serif;
   font-weight: 400;
   width: 150px;
@@ -148,7 +150,6 @@ textarea {
   letter-spacing: 0.06em;
   border-radius: 4px;
   text-align: center;
-  box-shadow: 0px 4px 4px, rgb (0 0 0 / 15%);
   margin-right: 120px;
 }
 .logo__title {
@@ -180,6 +181,7 @@ textarea {
   background: rgba(33 150 240 / 65%);
   height: 75px;
   align-items: center;
+  padding-bottom: 10px;
 }
 
 /*NEWS*/
