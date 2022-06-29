@@ -297,11 +297,12 @@ textarea {
 }
 .governor__block {
   display: flex;
-  justify-content: center;
   background-image: url(../images/Agapit.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 740px;
+  padding-left: 86px;
+  padding-bottom: 5px;
 
 }
 .governor__title {
@@ -312,7 +313,7 @@ textarea {
   margin-top: 630px;
   background-color: rgba(33 150 240 / 65%);
   color: #ffffff;
-  width: 1215px;
+  width: 615px;
 }
 .title {
   font-family: Indie Flower;
