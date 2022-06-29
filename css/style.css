@@ -115,6 +115,7 @@ textarea {
 .logo__menu {
   display: flex;
   justify-content: center;
+  align-items: flex-end;
 }
 .logo__elipce {
   background-color: rgb(33 150 240);
