@@ -282,3 +282,60 @@ textarea {
 .primate__about :last-child {
   margin-bottom: 30px;
 }
+
+//*Governor*//
+.governor__card {
+  background: rgba(33 150 240 / 65%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1230px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.governor__block {
+  display: flex;
+  justify-content: center;
+  background-image: url(../images/Agapit.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 740px;
+
+}
+.governor__title {
+  font-family: Indie Flower;
+  font-weight: 700;
+  font-size: 19px;
+  text-align: center;
+  margin-top: 630px;
+  background-color: rgba(33 150 240 / 65%);
+  color: #ffffff;
+  width: 1215px;
+}
+.title {
+  font-family: Indie Flower;
+  font-weight: 700;
+  font-size: 19px;
+  text-align: center;
+  margin-top: 30px;
+  color: rgb(33 150 240)
+}
+.governor__text {
+  font-family: 'Lora';
+  font-weight: 400;
+  font-size: 16px;
+  text-align: justify;
+  margin-top: 10px;
+  color: rgb(33 150 240);
+}
+.governor__about {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 25px;
+}
+.governor__about :last-child {
+  margin-bottom: 30px;
+}
