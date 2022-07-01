@@ -298,7 +298,6 @@ textarea {
   height: 740px;
   padding-left: 86px;
   padding-bottom: 5px;
-
 }
 .governor__title {
   font-family: Indie Flower;
@@ -341,7 +340,29 @@ textarea {
 }
 
 /*MONKS*/
-
+.monk__imposter {
+  display: flex;
+  justify-content: center;
+  background-image: url(../images/Monks/monks.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 740px;
+  padding-bottom: 5px;
+}
+.monk__title {
+    font-family: Indie Flower;
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 610px;
+    background-color: rgba(54 119 188 /45%);
+    border-bottom: 1mm solid rgb(54 119 188);
+    border-radius: 15px;
+    color: #ffffff;
+    width: 810px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 .monk__block {
   display: flex;
   flex-wrap: wrap;
