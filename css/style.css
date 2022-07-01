@@ -354,6 +354,7 @@ textarea {
   background-image: url(../images/Monks/monks.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   height: 740px;
   padding-bottom: 5px;
 }
