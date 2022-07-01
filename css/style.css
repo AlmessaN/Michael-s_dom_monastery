@@ -340,6 +340,14 @@ textarea {
 }
 
 /*MONKS*/
+.monk__card {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
 .monk__imposter {
   display: flex;
   justify-content: center;
