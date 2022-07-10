@@ -68,9 +68,9 @@ textarea {
   margin-bottom: 10px;
 }
 .header__title {
-  font-family: Indie Flower;
+  font-family: Philosopher;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 35px;
   text-align: center;
   margin-left: 20px;
   padding-top: 55px;
@@ -102,7 +102,7 @@ textarea {
 
 .menu__link {
   color: #ffffff;
-  font-family: Lora;
+  font-family: Philosopher;
   font-size: 20px;
   font-weight: 500;
 }
@@ -132,7 +132,7 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Lora', sans-serif;
+  font-family: Philosopher;
   font-weight: 400;
   width: 150px;
   height: 50px;
@@ -147,7 +147,7 @@ textarea {
   margin-right: 120px;
 }
 .logo__title {
-  font-family: 'Lora', sans-serif;
+  font-family: Philosopher;
   font-weight: 400;
   color: #ffffff;
   font-size: 16px;
@@ -213,7 +213,7 @@ textarea {
   background: rgb(54 119 188);
 }
 .footer__title {
-  font-family: Indie Flower;
+  font-family: Philosopher;
   font-weight: 700;
   font-size: 32px;
   text-align: center;
@@ -241,7 +241,7 @@ textarea {
 
 }
 .primate__title {
-  font-family: Indie Flower;
+  font-family: Philosopher;
   font-weight: 700;
   font-size: 19px;
   text-align: center;
@@ -256,26 +256,41 @@ textarea {
   margin-bottom: 10px;
 }
 .title {
-  font-family: Indie Flower;
+  font-family: Philosopher;
   font-weight: 700;
   font-size: 19px;
   text-align: center;
   margin-top: 30px;
-  color: rgb(33 150 240);
+  color: #FFFFFF;
+  background-color: rgba(54 119 188 /65%);
+  border-radius: 15px;
+  border-bottom: 1mm solid rgba(54 119 188 /65%);
+  padding: 10px;
 }
 .primate__text {
-  font-family: 'Lora';
+  font-family: Philosopher;
   font-weight: 400;
   font-size: 16px;
   text-align: justify;
   margin-top: 10px;
   color: rgb(54 119 188);
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 15px;
+  border-left: 1mm solid rgba(54 119 188 /15%);
+  border-right: 1mm solid rgba(54 119 188 /15%);
 }
 .primate__about {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 0 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 15px;
+  border-bottom: 1mm solid rgba(54 119 188 /65%);
+  margin: 20px;
 }
 .primate__about :last-child {
   margin-bottom: 30px;
@@ -300,7 +315,7 @@ textarea {
   padding-bottom: 5px;
 }
 .governor__title {
-  font-family: Indie Flower;
+  font-family: Philosopher;
   font-weight: 700;
   font-size: 19px;
   text-align: center;
@@ -313,27 +328,30 @@ textarea {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-.title {
-  font-family: Indie Flower;
-  font-weight: 700;
-  font-size: 19px;
-  text-align: center;
-  margin-top: 30px;
-  color: rgb(54 119 188);
-}
 .governor__text {
-  font-family: 'Lora';
+  font-family: Philosopher;
   font-weight: 400;
   font-size: 16px;
   text-align: justify;
   margin-top: 10px;
   color: rgb(54 119 188);
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 15px;
+  border-left: 1mm solid rgba(54 119 188 /15%);
+  border-right: 1mm solid rgba(54 119 188 /15%);
 }
 .governor__about {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 0 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 15px;
+  border-bottom: 1mm solid rgba(54 119 188 /65%);
+  margin: 20px;
 }
 .governor__about :last-child {
   margin-bottom: 30px;
@@ -359,7 +377,7 @@ textarea {
   padding-bottom: 5px;
 }
 .monk__title {
-    font-family: Indie Flower;
+    font-family: Philosopher;
     font-weight: 600;
     font-size: 32px;
     text-align: center;
@@ -402,7 +420,7 @@ textarea {
   overflow: hidden;
 }
 .monk__after-text {
-  font-family: 'Roboto';
+  font-family: Philosopher;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -427,7 +445,7 @@ textarea {
   box-shadow: none;
 }
 .card__title {
-  font-family: 'Roboto';
+  font-family: Philosopher;
   color: rgb(54 119 188);
   font-style: normal;
   font-weight: 700;
@@ -436,7 +454,7 @@ textarea {
   letter-spacing: 0.06em;
 }
 .card__text {
-  font-family: 'Roboto', sans-serif;
+  font-family: Philosopher;
   font-weight: 400;
   margin-top: 4px;
   color: rgb(54 119 188);
