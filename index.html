@@ -25,6 +25,13 @@
                 </a>
             </div>
         <nav class="main-nav">
+            <div class="mobile-menu-thumb" id="mobile_menu_thumb" data-menu>
+                <button type="button" class="menu-btn" aria-expanded="false" aria-controls="mobile_menu_thumb" data-menu-button="">
+                    <svg width="40px" height="40px" aria-label="Переключатель мобильного меню">
+                      <use class="icon-cross" href="./images/sprite.svg#close"></use>
+                      <use class="icon-menu" href="./images/sprite.svg#Burger"></use>
+                    </svg>
+                  </button>
             <ul class="menu__list">
                 <li class="menu__item">
                     <a class="menu__link current" href="./primat.html">Предстоятель</a>
@@ -39,6 +46,7 @@
                     <a class="menu__link" href="url">Монастир</a>
                 </li>
             </ul>
+            </div>
         </nav>
     </div>
     </header>
@@ -143,4 +151,5 @@
         </div>
     </footer>
 </body>
+<script src="./js/modal.js"></script>
 </html>
