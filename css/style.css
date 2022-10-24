@@ -80,6 +80,9 @@ textarea {
   padding-bottom: 35px;
   color: rgb(54 119 188);
 }
+.header__strip{
+  display: none;
+}
 .main-nav {
     display: flex;
     justify-content: center;
