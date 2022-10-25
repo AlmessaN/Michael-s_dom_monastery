@@ -83,8 +83,9 @@ textarea {
 .header__strip{
   display: none;
 }
-.main-nav {
+.main__nav {
     display: flex;
+    z-index: 2;
     justify-content: center;
     background-color: rgb(54 119 188);
     width: 100%;
@@ -274,8 +275,6 @@ textarea {
   padding-top: 55px;
   padding-bottom: 15px;
   color: #ffffff;
-}
-.footer__adres {
 }
 .footer__links {
   display: flex;
@@ -565,7 +564,3 @@ textarea {
   text-decoration: none;
 }
 
-/* Tablett */
-.mobile-menu-thumb {
-  display: flex;
-}

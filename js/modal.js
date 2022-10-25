@@ -1,13 +1,13 @@
-(() => {
-    const menuBtnRef = document.querySelector('[data-menu-button]');
-    const mobileMenuRef = document.querySelector('[data-menu]');
-  
-    menuBtnRef.addEventListener('click', () => {
-      const expanded = menuBtnRef.getAttribute('aria-expanded') === 'true' || false;
-  
-      menuBtnRef.classList.toggle('is-open');
-      menuBtnRef.setAttribute('aria-expanded', !expanded);
-  
-      mobileMenuRef.classList.toggle('is-open');
-    });
-  })();
+
+const burger = document.querySelector(".header__burger");
+const nav = document.querySelector(".main__nav");
+
+burger.addEventListener('click', openBurger, openBurgerNav);
+
+function openBurger (e) {
+   burger.classList.add('active');
+    };
+
+  function openBurgerNav (e) {
+      nav.classList.add('active');
+       };
