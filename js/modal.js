@@ -1,13 +1,12 @@
 
 const burger = document.querySelector(".header__burger");
 const nav = document.querySelector(".main__nav");
+const body = document.querySelector("body");
 
-burger.addEventListener('click', openBurger, openBurgerNav);
+burger.addEventListener('click', openBurger);
 
 function openBurger (e) {
-   burger.classList.add('active');
+  burger.classList.toggle('active');
+  nav.classList.toggle('active');
+  body.classList.toggle('lock');
     };
-
-  function openBurgerNav (e) {
-      nav.classList.add('active');
-       };
