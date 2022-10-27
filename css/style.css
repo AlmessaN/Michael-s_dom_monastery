@@ -333,7 +333,7 @@ textarea {
   display: flex;
   justify-content: center;
   background-image: url(../images/primate.png);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   height: 740px;
 
@@ -406,7 +406,7 @@ textarea {
 .governor__block {
   display: flex;
   background-image: url(../images/Agapit.jpg);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   height: 740px;
   padding-left: 86px;
@@ -468,7 +468,7 @@ textarea {
   display: flex;
   justify-content: center;
   background-image: url(../images/Monks/monks.jpg);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   height: 740px;

@@ -39,6 +39,7 @@
   }
   @media screen and (max-width: 767px) {
     .section__backgraund {
+      padding-top: 25px;
       margin: 0;
     }
     .header__title {
@@ -192,3 +193,61 @@
     background-color: rgba(54, 119, 188);
   }
 }
+
+
+/*PRIMAT__CART*/
+
+@media screen and (max-width: 767px) {
+  .primate__card {
+    padding-top: 52px;
+
+  }
+  .primate__title {
+    font-size: 17px;
+    margin-top: 410px;
+    width: 440px;
+  }
+  .primate__block {
+    height: 500px;
+  }
+}
+
+/*GOVERNOR*/
+@media screen and (max-width: 767px) {
+  .governor__card {
+    padding-top: 52px;
+
+  }
+  .governor__title {
+    font-size: 15px;
+    margin-top: 335px;
+    width: 480px;
+  }
+  .governor__block {
+    padding-left: 0;
+    left: auto;
+    height: 430px;
+  }
+}
+
+/*MONK*/
+@media screen and (max-width: 767px) {
+  .monk__imposter {
+    height: 196px;
+  }
+  .monk__card {
+    padding-top: 52px;
+
+  }
+  .monk__title {
+    font-size: 15px;
+    margin-top: 142px;
+    width: 365px;
+  }
+  .monk__block {
+    padding-left: 0;
+    left: auto;
+    height: 430px;
+  }
+}
+
