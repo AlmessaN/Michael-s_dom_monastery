@@ -564,3 +564,42 @@ textarea {
   text-decoration: none;
 }
 
+/*NEW_ACTIVE*/
+
+.section__list-new {
+  display: flex;
+  justify-content: center;
+}
+.section__list-new-active {
+  border-bottom: 0.3mm solid rgb(54 119 188);
+  border-radius: 15px;
+  margin-bottom: 25px;
+}
+.section__new-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section__new-img {
+  display: flex;
+    align-items: center;
+    border-radius: 5px;
+    width: 750px;
+    height: 470px;
+}
+.section__new-title {
+  order-radius: 15px;
+  margin-top: 24px;
+  margin-bottom: 15px;
+  font-family: Philosopher;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(54 119 188);
+}
+.section__new-block active {
+  display: flex;
+  background-color: rgb(54 119 188);
+  width: 100%;
+  height: 100%;
+}
