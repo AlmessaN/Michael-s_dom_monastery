@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "simplelightbox": "^2.10.4"
+    "simplelightbox": "^2.10.4",
+    "tui-pagination": "^3.4.1"
   }
 }
