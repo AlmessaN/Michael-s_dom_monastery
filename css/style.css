@@ -333,9 +333,10 @@ textarea {
   display: flex;
   justify-content: center;
   background-image: url(../images/primate.png);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  height: 740px;
+  background-position: top;
+  height: 1040px;
 
 }
 .primate__title {
@@ -343,7 +344,7 @@ textarea {
   font-weight: 700;
   font-size: 25px;
   text-align: center;
-  margin-top: 605px;
+  margin-top: 915px;
   background-color: rgba(54 119 188 /35%);
   border-radius: 15px;
   border-bottom: 1mm solid rgba(54 119 188 /65%);
@@ -405,19 +406,21 @@ textarea {
 }
 .governor__block {
   display: flex;
+  justify-content: center;
   background-image: url(../images/Agapit.jpg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  height: 740px;
+  background-position: top;
+  height: 1040px;
   padding-left: 86px;
   padding-bottom: 5px;
 }
 .governor__title {
   font-family: Philosopher;
   font-weight: 700;
-  font-size: 19px;
+  font-size: 22px;
   text-align: center;
-  margin-top: 610px;
+  margin-top: 915px;
   background-color: rgba(54 119 188 /35%);
   border-bottom: 1mm solid rgb(54 119 188);
   border-radius: 15px;
@@ -661,4 +664,39 @@ textarea {
 .body_block {
   overflow: hidden;
   margin-right: 17px;
+}
+
+/* NEW__BLOCK */
+.news__block {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 15px;
+  margin: 20px;
+}
+.news__title {
+  margin-top: 24px;
+  margin-bottom: 15px;
+  font-family: Philosopher;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(54 119 188);
+}
+.news__text {
+  font-family: Philosopher;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: justify;
+    margin-top: 10px;
+    color: rgb(54 119 188);
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    border-left: 1mm solid rgba(54 119 188 /15%);
+    border-right: 1mm solid rgba(54 119 188 /15%);
 }

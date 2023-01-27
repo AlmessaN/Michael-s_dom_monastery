@@ -1,6 +1,14 @@
 {
+<<<<<<< HEAD
     "name": "mykle_dom_monastery",
     "lockfileVersion": 2,
     "requires": true,
     "packages": {}
   }
+=======
+  "dependencies": {
+    "simplelightbox": "^2.10.4",
+    "tui-pagination": "^3.4.1"
+  }
+}
+>>>>>>> 139777b40e94748e271392ad89dd619bca63689f

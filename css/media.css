@@ -24,6 +24,23 @@
     .section__title {
       font-size: 23px;
     }
+    .section__list-new {
+      width: 300px;
+      height: 280px;
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+    .section__list-new-active {
+      margin-bottom: 0;
+    }
+    .section__new-img {
+      width: 275px;
+      height: 223px;
+    }
+    .section__new-title {
+      margin-top: 10px;
+      font-size: 14px;
+    }
     .section__plus {
       display: none;
     }
@@ -196,11 +213,25 @@
 
 
 /*PRIMAT__CART*/
-
+@media screen and (max-width: 1024px){
+  .primate__block {
+    height: 512px;
+  }
+  .primate__title {
+    margin-top: 400px;
+  }
+}
+@media screen and (min-width: 1024px){
+  .primate__block {
+    max-height: 1040px;
+  }
+  .primate__title {
+    margin-top: 922px;
+  }
+}
 @media screen and (max-width: 767px) {
   .primate__card {
     padding-top: 52px;
-
   }
   .primate__title {
     font-size: 17px;
@@ -213,6 +244,21 @@
 }
 
 /*GOVERNOR*/
+@media screen and (max-width: 1024px){
+  .governor__block {
+    height: 512px;
+  }
+  .governor__title {
+    margin-top: 400px;
+  }
+@media screen and (min-width: 1024px){
+  .governor__block {
+    max-height: 1040px;
+  }
+  .governor__title {
+    margin-top: 922px;
+  }
+}
 @media screen and (max-width: 767px) {
   .governor__card {
     padding-top: 52px;
