@@ -1,5 +1,6 @@
 {
-  "dependencies": {
-    "simplelightbox": "^2.10.4"
+    "name": "mykle_dom_monastery",
+    "lockfileVersion": 2,
+    "requires": true,
+    "packages": {}
   }
-}
