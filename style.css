@@ -1,3 +1,25 @@
+/*!
+Theme Name: Monastery
+Theme URI: https://github.com/AlmessaN/Michael-s_dom_monastery
+Author: Almessan
+Author URI: https://github.com/AlmessaN
+Description: 
+Site of St. Michael's Zolotoverkhi Monastery. A simple site for new about the life of monatyr.
+Version: 1.0.0
+License: https://github.com/AlmessaN
+License URI: https://github.com/AlmessaN/Michael-s_dom_monastery
+Text Domain: Monastery
+Requires at least: 2.2
+Tested up to: 6.2
+Tags: translation-ready, two-columns, right-sidebar, left-sidebar, footer-widgets, blog, custom-logo, custom-background, custom-menu, rtl-language-support, editor-style, threaded-comments, custom-colors, featured-images, wide-blocks, full-width-template, theme-options, e-commerce
+Requires PHP: 7.2
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share
+what you've learned with others.
+*/
+
+
 /*Base*/
 body {
     font-family: 'Lora', sans-serif;
